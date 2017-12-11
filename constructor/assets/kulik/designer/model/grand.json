@@ -1,0 +1,407 @@
+{
+    "aomap": "model/grand/aomap.jpg",
+    "type": "model",
+    "param": {
+        "offset": {
+            "x": -0.04,
+            "y": -0.1
+        }
+    },
+    "model": {
+        "name": "grand",
+        "seam": "design",
+        "data": {
+            "model_main": {
+                "url": "model/grand/model_main.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "model_main",
+                    "material": {
+                        "roughness": 0.7,
+                        "metalness": 0.1,
+                        "side": 2,
+                        "color": "#555555",
+                        "aoMap": "aomap",
+                        "bumpScale": 1.6,
+                        "aoMapIntensity": 1
+                    }
+                }
+            },
+            "model_color": {
+                "url": "model/grand/model_color.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "model_color",
+                    "material": {
+                        "roughness": 0.7,
+                        "metalness": 0.1,
+                        "side": 2,
+                        "color": "#555555",
+                        "aoMap": "aomap",
+                        "bumpScale": 1.2,
+                        "aoMapIntensity": 1
+                    }
+                }
+            },
+            "model_second": {
+                "url": "model/grand/model_second.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "model_second",
+                    "material": {
+                        "roughness": 0.7,
+                        "metalness": 0.1,
+                        "side": 2,
+                        "color": "#555555",
+                        "aoMap": "aomap",
+                        "bumpScale": 1.2,
+                        "aoMapIntensity": 1
+                    }
+                }
+            },
+            "birka_top": {
+                "url": "model/grand/birka_top.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "birka_top",
+                    "material": {
+                        "side": 2,
+                        "color": "#aa9944",
+                        "bumpMap": "model/detail/birka_top.png",
+                        "bumpScale": 0.8
+                    },
+                    "castShadow": true,
+                    "receiveShadow": true
+                },
+                "postMeshMeterial": {
+                    "bumpMap":  {
+                        "anisotropy": 16
+                    }
+                }
+            },
+            "birka_side": {
+                "url": "model/grand/birka_side.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "birka_side",
+                    "material": {
+                        "side": 2,
+                        "color": "#aa9944",
+                        "bumpMap": "model/detail/birka_side.png",
+                        "bumpScale": 0.8
+                    },
+                    "castShadow": true,
+                    "receiveShadow": true
+                },
+                "postMeshMeterial": {
+                    "bumpMap":  {
+                        "anisotropy": 16
+                    }
+                }
+            },
+            "cristal": {
+                "url": "model/grand/cristal.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "cristal",
+                    "visible": false,
+                    "material": {
+                        "roughness": 0.1,
+                        "metalness": 0.8,
+                        "transparent": true,
+                        "opacity": 0.78,
+                        "shading": 1,
+                        "side": 2,
+                        "color": "#fff",
+                        "envMap": "textureCube",
+                        "envMapIntensity": 0.8
+                    },
+                    "castShadow": true,
+                    "receiveShadow": true
+                }
+            },
+            "sticker": {
+                "url": "/model/grand/sticker.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "sticker",
+                    "material": {
+                        "side": 2,
+                        "color": "#ffffff",
+                        "roughness": 0.5,
+                        "metalness": 0.4,
+                        "map": "/images/stickers/sticker.png"
+                    }
+                },
+                "postMeshMeterial": {
+                    "map": {
+                        "anisotropy": 14
+                    }
+                }
+            },
+            "sticker1": {
+                "url": "/model/grand/sticker1.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "sticker1",
+                    "material": {
+                        "side": 2,
+                        "color": "#ffffff",
+                        "roughness": 0.5,
+                        "metalness": 0.4,
+                        "map": "/images/stickers/sticker1.png"
+                    }
+                },
+                "postMeshMeterial": {
+                    "map": {
+                        "anisotropy": 14
+                    }
+                }
+            },
+            "sticker2": {
+                "url": "/model/grand/sticker2.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "sticker2",
+                    "material": {
+                        "side": 2,
+                        "color": "#ffffff",
+                        "roughness": 0.5,
+                        "metalness": 0.4,
+                        "map": "/images/stickers/sticker2.png"
+                    }
+                },
+                "postMeshMeterial": {
+                    "map": {
+                        "anisotropy": 14
+                    }
+                }
+            },
+            "sticker3": {
+                "url": "/model/grand/sticker3.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "sticker3",
+                    "material": {
+                        "side": 2,
+                        "color": "#ffffff",
+                        "roughness": 0.5,
+                        "metalness": 0.4,
+                        "map": "/images/stickers/sticker3.png"
+                    }
+                },
+                "postMeshMeterial": {
+                    "map": {
+                        "anisotropy": 14
+                    }
+                }
+            },
+            "sticker4": {
+                "url": "/model/grand/sticker4.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "sticker4",
+                    "material": {
+                        "side": 2,
+                        "color": "#ffffff",
+                        "roughness": 0.5,
+                        "metalness": 0.4,
+                        "map": "/images/stickers/sticker4.png"
+                    }
+                },
+                "postMeshMeterial": {
+                    "map": {
+                        "anisotropy": 14
+                    }
+                }
+            },
+            "sticker5": {
+                "url": "/model/grand/sticker5.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "sticker5",
+                    "material": {
+                        "side": 2,
+                        "color": "#ffffff",
+                        "roughness": 0.5,
+                        "metalness": 0.4,
+                        "map": "/images/stickers/sticker5.png"
+                    }
+                },
+                "postMeshMeterial": {
+                    "map": {
+                        "anisotropy": 14
+                    }
+                }
+            }
+        }
+    },
+    "osnova": 1,
+    "osnova_type": "chrome",
+    "osnova_data": {
+        "metal": {
+            "url": "model/grand/osnova_metal.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "metal",
+                "material": {
+                    "side": 2,
+                    "color": "#E0EBF8",
+                    "roughness": 0,
+                    "metalness": 1,
+                    "envMap": "textureCube",
+                    "envMapIntensity": 1.4,
+                    "aoMap": "aomap"
+                },
+                "castShadow": true,
+                "receiveShadow": true
+            },
+            "postMeshMeterial": {
+                "aoMap": {
+                    "anisotropy": 14
+                },
+                "envMap": {
+                    "anisotropy": 14
+                }
+            }
+        },
+        "metal_black": {
+            "url": "model/grand/osnova_metal_black.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "metal_black",
+                "material": {
+                    "side": 2,
+                    "color": "#333",
+                    "roughness": 0.4,
+                    "metalness": 0.55,
+                    "envMap": "textureCube",
+                    "envMapIntensity": 0.9,
+                    "aoMap": "aomap"
+                },
+                "castShadow": true,
+                "receiveShadow": true
+            }
+        },
+        "plastic": {
+            "url": "model/grand/osnova_plastic.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "plastic",
+                "meshType": "MeshStandardMaterial",
+                "material": {
+                    "roughness": 0.7,
+                    "metalness": 0.5,
+                    "side": 2,
+                    "color": "#333",
+                    "aoMap": "aomap"
+                },
+                "castShadow": true,
+                "receiveShadow": true
+            }
+        }
+    },
+    "podgolovnik": {
+        "name": "grand",
+        "data": {
+            "podgolovnik_main": {
+                "url": "model/grand/podgolovnik_main.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "podgolovnik_main",
+                    "material": {
+                        "roughness": 0.7,
+                        "metalness": 0.1,
+                        "side": 2,
+                        "color": "#555555",
+                        "aoMap": "aomap",
+                        "bumpScale": 1.6
+                    }
+                }
+            },
+            "podgolovnik_second": {
+                "url": "model/grand/podgolovnik_second.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "podgolovnik_second",
+                    "material": {
+                        "roughness": 0.7,
+                        "metalness": 0.1,
+                        "side": 2,
+                        "color": "#555555",
+                        "aoMap": "aomap",
+                        "bumpScale": 1.2
+                    }
+                }
+            },
+            "podgolovnik_metal": {
+                "url": "model/grand/podgolovnik_metal.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "podgolovnik_metal",
+                    "material": {
+                        "side": 2,
+                        "color": "#aaa",
+                        "roughness": 0,
+                        "metalness": 1,
+                        "envMap": "textureCube",
+                        "envMapIntensity": 1.4,
+                        "aoMap": "aomap"
+                    }
+                }
+            },
+            "podgolovnik_metal_black": {
+                "url": "model/grand/podgolovnik_metal_black.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "podgolovnik_metal_black",
+                    "material": {
+                        "side": 2,
+                        "color": "#111",
+                        "roughness": 0.3,
+                        "metalness": 1,
+                        "envMap": "textureCube",
+                        "envMapIntensity": 0.5,
+                        "aoMap": "aomap"
+                    }
+                }
+            },
+            "podgolovnik_plastic": {
+                "url": "model/grand/podgolovnik_plastic.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "podgolovnik_plastic",
+                    "material": {
+                        "roughness": 0.8,
+                        "metalness": 0.5,
+                        "side": 2,
+                        "color": "#222",
+                        "aoMap": "aomap"
+                    },
+                    "castShadow": true,
+                "receiveShadow": true
+                }
+            }
+        }
+    }
+}

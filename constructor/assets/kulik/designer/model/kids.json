@@ -1,0 +1,67 @@
+{
+    "aomap": "model/kids/aomap.jpg",
+    "type": "model",
+    "model": {
+        "name": "kids",
+        "data": {
+            "model_main": {
+                "url": "model/kids/model_main.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "model_main",
+                    "material": {
+                        "roughness": 0.7,
+                        "metalness": 0.1,
+                        "side": 2,
+                        "color": "#555555",
+                        "aoMap": "aomap",
+                        "bumpScale": 1.6,
+                        "aoMapIntensity": 1
+                    }
+                }
+            },
+            "model_color": {
+                "url": "model/kids/model_color.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "model_color",
+                    "material": {
+                        "roughness": 0.7,
+                        "metalness": 0.1,
+                        "side": 2,
+                        "color": "#555555",
+                        "aoMap": "aomap",
+                        "aoMapIntensity": 1
+                    },
+                    "castShadow": true,
+                    "receiveShadow": true
+                }
+            },
+            "birka_top": {
+                "url": "model/kids/birka_top.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "birka_top",
+                    "material": {
+                        "side": 2,
+                        "color": "#aa9944",
+                        "bumpMap": "model/detail/birka_top.png",
+                        "bumpScale": 0.8
+                    },
+                    "castShadow": true,
+                    "receiveShadow": true
+                },
+                "postMeshMeterial": {
+                    "bumpMap":  {
+                        "anisotropy": 16
+                    }
+                }
+            }
+        }
+    },
+    "osnova": 2,
+    "osnova_type": "chrome"
+}

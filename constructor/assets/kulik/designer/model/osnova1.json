@@ -1,0 +1,184 @@
+{
+    "type": "osnova",
+    "name": 1,
+    "data": {
+        "osnova_ring": {
+            "url": "model/osnova/osnova_ring_plastic.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "osnova_ring",
+                "meshType": "MeshStandardMaterial",
+                "material": {
+                    "roughness": 0.7,
+                    "metalness": 0.5,
+                    "side": 2,
+                    "color": "#222"
+                }
+            }
+        },
+        "wheel_rezina": {
+            "url": "model/osnova/wheel_rezina.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "wheel_rezina",
+                "material": {
+                    "shininess": 100,
+                    "side": 2,
+                    "color": "#7A7A7A"
+                }
+            }
+        },
+        "wheel_plastic": {
+            "url": "model/osnova/wheel_plastic.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "wheel_plastic",
+                "meshType": "MeshStandardMaterial",
+                "material": {
+                    "roughness": 0.7,
+                    "metalness": 0.5,
+                    "side": 2,
+                    "color": "#333"
+                }
+            }
+        },
+        "wheel_patch": {
+            "url": "model/osnova/wheel_patch.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "wheel_patch",
+                "material": {
+                    "side": 2,
+                    "color": "#E0EBF8",
+                    "roughness": 0,
+                    "metalness": 1,
+                    "envMap": "textureCube",
+                    "envMapIntensity": 1.4
+                },
+                "castShadow": true,
+                "receiveShadow": true
+            },
+            "postMeshMeterial": {
+                "envMap": {
+                    "anisotropy": 14
+                }
+            }
+        },
+        "wheel_rack_plastic": {
+            "url": "model/osnova/wheel_rack_plastic.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "wheel_rack_plastic",
+                "material": {
+                    "roughness": 0.7,
+                    "metalness": 0.5,
+                    "side": 2,
+                    "color": "#333"
+                },
+                "castShadow": true,
+                "receiveShadow": true
+            }
+        },
+        "opora": {
+            "url": "model/osnova/opora.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "opora",
+                "visible": false,
+                "material": {
+                    "side": 2,
+                    "color": "#E0EBF8",
+                    "roughness": 0,
+                    "metalness": 1,
+                    "envMap": "textureCube",
+                    "envMapIntensity": 1.4
+                },
+                "castShadow": true,
+                "receiveShadow": true
+            },
+            "postMeshMeterial": {
+                "envMap": {
+                    "anisotropy": 14
+                }
+            }
+        },
+        "stop_metal": {
+            "url": "model/osnova/stop_metal.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "stop_metal",
+                "visible": false,
+                "material": {
+                    "side": 2,
+                    "color": "#E0EBF8",
+                    "roughness": 0,
+                    "metalness": 1,
+                    "envMap": "textureCube",
+                    "envMapIntensity": 1.4
+                }
+            }
+        },
+        "stop_plastic": {
+            "url": "model/osnova/stop_plastic.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "stop_plastic",
+                "visible": false,
+                "meshType": "MeshStandardMaterial",
+                "material": {
+                    "roughness": 0.7,
+                    "metalness": 0.5,
+                    "side": 2,
+                    "color": "#333"
+                }
+            }
+        },
+        "chrome": {
+            "url": "model/osnova/chrome.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "chrome",
+                "material": {
+                    "side": 2,
+                    "color": "#E0EBF8",
+                    "roughness": 0,
+                    "metalness": 1,
+                    "envMap": "textureCube",
+                    "envMapIntensity": 1.4
+                },
+                "castShadow": true,
+                "receiveShadow": true
+            },
+            "postMeshMeterial": {
+                "envMap": {
+                    "anisotropy": 14
+                }
+            }
+        },
+        "poly": {
+            "url": "model/osnova/poly.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "poly",
+                "visible": false,
+                "meshType": "MeshStandardMaterial",
+                "material": {
+                    "roughness": 0.7,
+                    "metalness": 0.5,
+                    "side": 2,
+                    "color": "#333"
+                }
+            }
+        }
+    }
+}

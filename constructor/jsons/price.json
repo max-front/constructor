@@ -1,0 +1,305 @@
+{
+  "currency": "грн",
+  "prices": {
+    "diamond": {
+      "model": 25900,
+      "headrest": 0,
+      "material": {
+        "genuine-leather": 16500,
+        "perforated-leather": 1500
+      },
+      "color": 0,
+      "color_add": 2590,
+      "seam": 0,
+      "cross": {
+        "poly": 0,
+        "chrome": 0,
+        "wood-c": 0
+      },
+      "additional_legs": 0,
+      "additional_stop": 300,
+      "crystals": 2000,
+      "logo": 700
+    },
+    "monarch": {
+      "model": 19800,
+      "headrest": 0,
+      "material": {
+        "genuine-leather": 6900,
+        "perforated-leather": 1000
+      },
+      "color": 0,
+      "color_add": 1980,
+      "seam": 0,
+      "cross": {
+        "poly": 0,
+        "chrome": 0,
+        "wood-c": 0
+      },
+      "additional_legs": 700,
+      "additional_stop": 300,
+      "crystals": 2000,
+      "logo": 700
+    },
+    "jet": {
+      "model": 14700,
+      "headrest": 0,
+      "material": {
+        "genuine-leather": 6900,
+        "perforated-leather": 1000
+      },
+      "color": 0,
+      "color_add": 1470,
+      "seam": 2000,
+      "cross": {
+        "poly": 0,
+        "chrome": 0,
+        "wood-c": 0
+      },
+      "additional_legs": 700,
+      "additional_stop": 300,
+      "crystals": 2000,
+      "logo": 700
+    },
+    "grand": {
+      "model": 13400,
+      "headrest": 0,
+      "material": {
+        "genuine-leather": 6900,
+        "perforated-leather": 1000
+      },
+      "color": 0,
+      "color_add": 1340,
+      "seam": 2000,
+      "cross": {
+        "poly": 0,
+        "chrome": 0,
+        "wood-c": 0
+      },
+      "additional_legs": 700,
+      "additional_stop": 300,
+      "crystals": 2000,
+      "logo": 700
+    },
+    "royal": {
+      "model": 12100,
+      "headrest": 0,
+      "material": {
+        "genuine-leather": 6900,
+        "perforated-leather": 1000
+      },
+      "color": 0,
+      "color_add": 1210,
+      "seam": 2000,
+      "cross": {
+        "poly": 0,
+        "chrome": 0,
+        "wood-c": 0
+      },
+      "additional_legs": 700,
+      "additional_stop": 300,
+      "crystals": 2000,
+      "logo": 700
+    },
+    "business": {
+      "model": 11800,
+      "headrest": 1100,
+      "material": {
+        "genuine-leather": 6900,
+        "perforated-leather": 1000
+      },
+      "color": 0,
+      "color_add": 1180,
+      "seam": 2000,
+      "cross": {
+        "poly": 0,
+        "chrome": 0,
+        "wood-c": 0
+      },
+      "additional_legs": 700,
+      "additional_stop": 300,
+      "crystals": 2000,
+      "logo": 700
+    },
+    "imperial": {
+      "model": 10600,
+      "headrest": 0,
+      "material": {
+        "genuine-leather": 6900,
+        "perforated-leather": 1000
+      },
+      "color": 0,
+      "color_add": 1060,
+      "seam": 2000,
+      "cross": {
+        "poly": 0,
+        "chrome": 0,
+        "wood-c": 0
+      },
+      "additional_legs": 700,
+      "additional_stop": 300,
+      "crystals": 2000,
+      "logo": 700
+    },
+    "victory": {
+      "model": 7200,
+      "headrest": 900,
+      "material": {
+        "genuine-leather": 5800,
+        "perforated-leather": 1000
+      },
+      "color": 0,
+      "color_add": 720,
+      "seam": 2000,
+      "cross": {
+        "poly": 0,
+        "chrome": 0,
+        "wood-c": 0
+      },
+      "additional_legs": 700,
+      "additional_stop": 300,
+      "crystals": 2000,
+      "logo": 700
+    },
+    "pyramid": {
+      "model": 7400,
+      "headrest": 0,
+      "material": {
+        "genuine-leather": 5800,
+        "perforated-leather": 1000
+      },
+      "color": 0,
+      "color_add": 740,
+      "seam": 2000,
+      "cross": {
+        "poly": 0,
+        "chrome": 0,
+        "wood-c": 0
+      },
+      "additional_legs": 700,
+      "additional_stop": 300,
+      "crystals": 2000,
+      "logo": 700
+    },
+    "galaxy": {
+      "model": 6600,
+      "headrest": 0,
+      "material": {
+        "genuine-leather": 5800,
+        "perforated-leather": 1000
+      },
+      "color": 0,
+      "color_add": 660,
+      "seam": 2000,
+      "cross": {
+        "poly": 0,
+        "chrome": 0,
+        "wood-c": 0
+      },
+      "additional_legs": 700,
+      "additional_stop": 300,
+      "crystals": 2000,
+      "logo": 700
+    },
+    "elegance": {
+      "model": 6500,
+      "headrest": 800,
+      "material": {
+        "genuine-leather": 5800,
+        "perforated-leather": 1000
+      },
+      "color": 0,
+      "color_add": 650,
+      "seam": 2000,
+      "cross": {
+        "poly": 0,
+        "chrome": 0,
+        "wood-c": 0
+      },
+      "additional_legs": 700,
+      "additional_stop": 300,
+      "crystals": 2000,
+      "logo": 700
+    },
+    "classic": {
+      "model": 6400,
+      "headrest": 800,
+      "material": {
+        "genuine-leather": 5800,
+        "perforated-leather": 1000
+      },
+      "color": 0,
+      "color_add": 640,
+      "seam": 0,
+      "cross": {
+        "poly": 0,
+        "chrome": 0,
+        "wood-c": 0
+      },
+      "additional_legs": 700,
+      "additional_stop": 300,
+      "crystals": 2000,
+      "logo": 700
+    },
+    "fly": {
+      "model": 8000,
+      "headrest": 0,
+      "material": {
+        "genuine-leather": 4700,
+        "perforated-leather": 1000
+      },
+      "color": 0,
+      "color_add": 800,
+      "seam": 0,
+      "cross": {
+        "poly": 0,
+        "chrome": 0,
+        "wood-c": 0
+      },
+      "additional_legs": 700,
+      "additional_stop": 300,
+      "crystals": 0,
+      "logo": 700
+    },
+    "trio": {
+      "model": 6900,
+      "headrest": 0,
+      "material": {
+        "genuine-leather": 4700,
+        "perforated-leather": 1000
+      },
+      "color": 0,
+      "color_add": 690,
+      "seam": 0,
+      "cross": {
+        "poly": 0,
+        "chrome": 0,
+        "wood-c": 0
+      },
+      "additional_legs": 700,
+      "additional_stop": 300,
+      "crystals": 0,
+      "logo": 700
+    },
+    "kids": {
+      "model": 6400,
+      "headrest": 0,
+      "material": {
+        "genuine-leather": 4700,
+        "perforated-leather": 1000
+      },
+      "color": 0,
+      "color_add": 640,
+      "seam": 0,
+      "cross": {
+        "poly": 0,
+        "chrome": 0,
+        "wood-c": 0
+      },
+      "additional_legs": 700,
+      "additional_stop": 300,
+      "crystals": 0,
+      "logo": 700
+    }
+  }
+}

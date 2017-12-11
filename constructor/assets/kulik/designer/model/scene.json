@@ -1,0 +1,52 @@
+{
+    "type": "scene",
+    "data": {
+        "plitka": {
+            "url": "model/scene/json/plitka.json",
+            "model": "modelScene",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "plitka",
+                "material": {
+                    "side": 2,
+                    "color": "#fcfdff",
+                    "roughness": 0.06,
+                    "metalness": 1.42,
+                    "map": "model/scene/texture/floor[map].jpg",
+                    "normalMap": "model/scene/texture/floor[normal].png",
+                    "lightMap": "model/scene/texture/floor[ao].jpg",
+                    "roughnessMap": "model/scene/texture/floor[roughness2].jpg",
+                    "metalnessMap": "model/scene/texture/floor[bump].jpg"
+                },
+                "receiveShadow": true
+            },
+            "postMeshMeterial": {
+                "map": {
+                    "anisotropy": 14,
+                    "wrapS": 1000,
+                    "wrapT": 1000
+                },
+                "normalMap":  {
+                    "anisotropy": 14,
+                    "wrapS": 1000,
+                    "wrapT": 1000
+                },
+                "roughnessMap":  {
+                    "anisotropy": 14,
+                    "wrapS": 1000,
+                    "wrapT": 1000
+                },
+                "lightMap":  {
+                    "anisotropy": 14,
+                    "wrapS": 1000,
+                    "wrapT": 1000
+                },
+                "metalnessMap":  {
+                    "anisotropy": 14,
+                    "wrapS": 1000,
+                    "wrapT": 1000
+                }
+            }
+        }
+    }
+}

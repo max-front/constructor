@@ -1,0 +1,195 @@
+{
+    "type": "osnova",
+    "name": 3,
+    "data": {
+        "metal": {
+            "url": "model/osnova3/osnova_metal.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "metal",
+                "material": {
+                    "side": 2,
+                    "color": "#E0EBF8",
+                    "roughness": 0,
+                    "metalness": 1,
+                    "envMap": "textureCube",
+                    "envMapIntensity": 1.4,
+                    "aoMap": "aomap"
+                },
+                "castShadow": true,
+                "receiveShadow": true
+            },
+            "postMeshMeterial": {
+                "aoMap": {
+                    "anisotropy": 14
+                },
+                "envMap": {
+                    "anisotropy": 14
+                }
+            }
+        },
+        "metal_black": {
+            "url": "model/osnova3/osnova_metal_black.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "metal_black",
+                "material": {
+                    "side": 2,
+                    "color": "#333",
+                    "roughness": 0.4,
+                    "metalness": 0.55,
+                    "envMap": "textureCube",
+                    "envMapIntensity": 0.9,
+                    "aoMap": "aomap"
+                },
+                "castShadow": true,
+                "receiveShadow": true
+            }
+        },
+        "plastic": {
+            "url": "model/osnova3/osnova_plastic.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "plastic",
+                "meshType": "MeshStandardMaterial",
+                "material": {
+                    "roughness": 0.7,
+                    "metalness": 0.5,
+                    "side": 2,
+                    "color": "#333",
+                    "aoMap": "aomap"
+                },
+                "castShadow": true,
+                "receiveShadow": true
+            }
+        },
+        "wood": {
+            "url": "model/osnova3/wood.json",
+            "model": "modelIn",
+            "mesh": {
+                "name": "wood",
+                "meshType": "MeshStandardMaterial",
+                "material": {
+                    "side": 2,
+                    "color": "#56361F",
+                    "roughness": 0.8,
+                    "metalness": 0.5,
+                    "map": "model/detail/wood_bump1.jpg",
+                    "roughnessMap": "model/detail/wood_bump1.jpg"
+                },
+                "castShadow": true,
+                "receiveShadow": true
+            },
+            "postMeshMeterial": {
+                "map": {
+                    "anisotropy": 16,
+                    "repeat": {
+                        "x": 3,
+                        "y": 3
+                    },
+                    "wrapS": 1000,
+                    "wrapT": 1000
+                }
+            }
+        },
+        "wheel_rezina": {
+            "url": "model/osnova3/wheel_rezina.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "wheel_rezina",
+                "material": {
+                    "shininess": 100,
+                    "side": 2,
+                    "color": "#7A7A7A",
+                    "aoMap": "aomap"
+                },
+                "castShadow": true,
+                "receiveShadow": true
+            }
+        },
+        "wheel_plastic": {
+            "url": "model/osnova3/wheel_plastic.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "wheel_plastic",
+                "meshType": "MeshStandardMaterial",
+                "material": {
+                    "roughness": 0.7,
+                    "metalness": 0.5,
+                    "side": 2,
+                    "color": "#333",
+                    "aoMap": "aomap"
+                },
+                "castShadow": true,
+                "receiveShadow": true
+            }
+        },
+        "wheel_patch": {
+            "url": "model/osnova3/wheel_patch.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "wheel_patch",
+                "material": {
+                    "side": 2,
+                    "color": "#E0EBF8",
+                    "roughness": 0,
+                    "metalness": 1,
+                    "envMap": "textureCube",
+                    "envMapIntensity": 1.4,
+                    "aoMap": "aomap"
+                },
+                "castShadow": true,
+                "receiveShadow": true
+            },
+            "postMeshMeterial": {
+                "aoMap": {
+                    "anisotropy": 14
+                },
+                "envMap": {
+                    "anisotropy": 14
+                }
+            }
+        },
+        "stop_metal": {
+            "url": "model/osnova3/stop_metal.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "stop_metal",
+                "visible": false,
+                "material": {
+                    "side": 2,
+                    "color": "#E0EBF8",
+                    "roughness": 0,
+                    "metalness": 1,
+                    "envMap": "textureCube",
+                    "envMapIntensity": 1.4,
+                    "aoMap": "aomap"
+                }
+            }
+        },
+        "stop_plastic": {
+            "url": "model/osnova3/stop_plastic.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "stop_plastic",
+                "visible": false,
+                "meshType": "MeshStandardMaterial",
+                "material": {
+                    "roughness": 0.7,
+                    "metalness": 0.5,
+                    "side": 2,
+                    "color": "#333",
+                    "aoMap": "aomap"
+                }
+            }
+        }
+    }
+}

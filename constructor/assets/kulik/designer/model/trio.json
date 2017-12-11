@@ -1,0 +1,184 @@
+{
+    "aomap": "model/trio/aomap.jpg",
+    "type": "model",
+    "model": {
+        "name": "trio",
+        "seam": "quatro",
+        "data": {
+            "model_main": {
+                "url": "model/trio/model_main.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "model_main",
+                    "material": {
+                        "roughness": 0.7,
+                        "metalness": 0.1,
+                        "side": 2,
+                        "color": "#555555",
+                        "aoMap": "aomap",
+                        "aoMapIntensity": 1
+                    },
+                    "castShadow": true,
+                    "receiveShadow": true
+                }
+            },
+            "model_color": {
+                "url": "model/trio/model_color.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "model_color",
+                    "material": {
+                        "roughness": 0.7,
+                        "metalness": 0.1,
+                        "side": 2,
+                        "color": "#555555",
+                        "aoMap": "aomap",
+                        "aoMapIntensity": 1
+                    },
+                    "castShadow": true,
+                    "receiveShadow": true
+                }
+            },
+            "birka_top": {
+                "url": "model/trio/birka_top.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "birka_top",
+                    "material": {
+                        "side": 2,
+                        "color": "#aa9944",
+                        "bumpMap": "model/detail/birka_top.png",
+                        "bumpScale": 0.8
+                    },
+                    "castShadow": true,
+                    "receiveShadow": true
+                },
+                "postMeshMeterial": {
+                    "bumpMap":  {
+                        "anisotropy": 16
+                    }
+                }
+            },
+            "birka_side": {
+                "url": "model/trio/birka_side.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "birka_side",
+                    "material": {
+                        "side": 2,
+                        "color": "#aa9944",
+                        "bumpMap": "model/detail/birka_side.png",
+                        "bumpScale": 0.8
+                    },
+                    "castShadow": true,
+                    "receiveShadow": true
+                },
+                "postMeshMeterial": {
+                    "bumpMap":  {
+                        "anisotropy": 16
+                    }
+                }
+            }
+        }
+    },
+    "osnova": 2,
+    "osnova_type": "chrome",
+    "podgolovnik": {
+        "name": "trio",
+        "data": {
+            "podgolovnik_main": {
+                "url": "model/trio/podgolovnik_main.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "podgolovnik_main",
+                    "material": {
+                        "roughness": 0.7,
+                        "metalness": 0.1,
+                        "side": 2,
+                        "color": "#555555",
+                        "aoMap": "aomap"
+                    },
+                    "castShadow": true,
+                    "receiveShadow": true
+                }
+            },
+            "podgolovnik_color": {
+                "url": "model/trio/podgolovnik_color.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "podgolovnik_color",
+                    "material": {
+                        "roughness": 0.7,
+                        "metalness": 0.1,
+                        "side": 2,
+                        "color": "#555555",
+                        "aoMap": "aomap"
+                    },
+                    "castShadow": true,
+                    "receiveShadow": true
+                }
+            },
+            "podgolovnik_metal": {
+                "url": "model/trio/podgolovnik_metal.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "podgolovnik_metal",
+                    "material": {
+                        "side": 2,
+                        "color": "#aaa",
+                        "roughness": 0,
+                        "metalness": 1,
+                        "envMap": "textureCube",
+                        "envMapIntensity": 1.4,
+                        "aoMap": "aomap"
+                    },
+                    "castShadow": true,
+                    "receiveShadow": true
+                }
+            },
+            "podgolovnik_metal_black": {
+                "url": "model/trio/podgolovnik_metal_black.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "podgolovnik_metal_black",
+                    "material": {
+                        "side": 2,
+                        "color": "#111",
+                        "roughness": 0.3,
+                        "metalness": 1,
+                        "envMap": "textureCube",
+                        "envMapIntensity": 0.5,
+                        "aoMap": "aomap"
+                    },
+                    "castShadow": true,
+                "receiveShadow": true
+                }
+            },
+            "podgolovnik_plastic": {
+                "url": "model/trio/podgolovnik_plastic.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "podgolovnik_plastic",
+                    "material": {
+                        "roughness": 0.8,
+                        "metalness": 0.5,
+                        "side": 2,
+                        "color": "#222",
+                        "aoMap": "aomap"
+                    },
+                    "castShadow": true,
+                "receiveShadow": true
+                }
+            }
+        }
+    }
+}

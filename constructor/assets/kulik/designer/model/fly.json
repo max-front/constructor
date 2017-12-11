@@ -1,0 +1,229 @@
+{
+    "aomap": "model/fly/aomap.jpg",
+    "type": "model",
+    "model": {
+        "name": "fly",
+        "seam": "quatro",
+        "data": {
+            "model_main": {
+                "url": "model/fly/model_main.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "model_main",
+                    "material": {
+                        "roughness": 0.7,
+                        "metalness": 0.1,
+                        "side": 2,
+                        "color": "#555555",
+                        "aoMap": "aomap",
+                        "aoMapIntensity": 1
+                    },
+                    "castShadow": true,
+                    "receiveShadow": true
+                }
+            },
+            "model_color": {
+                "url": "model/fly/model_color.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "model_color",
+                    "material": {
+                        "roughness": 0.7,
+                        "metalness": 0.1,
+                        "side": 2,
+                        "color": "#555555",
+                        "aoMap": "aomap",
+                        "aoMapIntensity": 1
+                    },
+                    "castShadow": true,
+                    "receiveShadow": true
+                }
+            },
+            "birka_top": {
+                "url": "model/fly/birka_top.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "birka_top",
+                    "material": {
+                        "side": 2,
+                        "color": "#aa9944",
+                        "bumpMap": "model/detail/birka_top.png",
+                        "bumpScale": 0.8
+                    },
+                    "castShadow": true,
+                    "receiveShadow": true
+                },
+                "postMeshMeterial": {
+                    "bumpMap":  {
+                        "anisotropy": 16
+                    }
+                }
+            }
+        }
+    },
+    "osnova": 1,
+    "osnova_type": "chrome",
+    "osnova_data": {
+        "metal": {
+            "url": "model/fly/osnova_metal.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "metal",
+                "material": {
+                    "side": 2,
+                    "color": "#E0EBF8",
+                    "roughness": 0,
+                    "metalness": 1,
+                    "envMap": "textureCube",
+                    "envMapIntensity": 1.4,
+                    "aoMap": "aomap"
+                },
+                "castShadow": true,
+                "receiveShadow": true
+            },
+            "postMeshMeterial": {
+                "aoMap": {
+                    "anisotropy": 14
+                },
+                "envMap": {
+                    "anisotropy": 14
+                }
+            }
+        },
+        "metal_black": {
+            "url": "model/fly/osnova_metal_black.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "metal_black",
+                "material": {
+                    "side": 2,
+                    "color": "#333",
+                    "roughness": 0.4,
+                    "metalness": 0.55,
+                    "envMap": "textureCube",
+                    "envMapIntensity": 0.9,
+                    "aoMap": "aomap"
+                },
+                "castShadow": true,
+                "receiveShadow": true
+            }
+        },
+        "plastic": {
+            "url": "model/fly/osnova_plastic.json",
+            "model": "modelIn",
+            "meshType": "MeshStandardMaterial",
+            "mesh": {
+                "name": "plastic",
+                "meshType": "MeshStandardMaterial",
+                "material": {
+                    "roughness": 0.7,
+                    "metalness": 0.5,
+                    "side": 2,
+                    "color": "#333",
+                    "aoMap": "aomap"
+                },
+                "castShadow": true,
+                "receiveShadow": true
+            }
+        }
+    },
+    "podgolovnik": {
+        "name": "fly",
+        "data": {
+            "podgolovnik_main": {
+                "url": "model/fly/podgolovnik_main.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "podgolovnik_main",
+                    "material": {
+                        "roughness": 0.7,
+                        "metalness": 0.1,
+                        "side": 2,
+                        "color": "#555555",
+                        "aoMap": "aomap"
+                    },
+                    "castShadow": true,
+                    "receiveShadow": true
+                }
+            },
+            "podgolovnik_color": {
+                "url": "model/fly/podgolovnik_color.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "podgolovnik_color",
+                    "material": {
+                        "roughness": 0.7,
+                        "metalness": 0.1,
+                        "side": 2,
+                        "color": "#555555",
+                        "aoMap": "aomap"
+                    },
+                    "castShadow": true,
+                    "receiveShadow": true
+                }
+            },
+            "podgolovnik_metal": {
+                "url": "model/fly/podgolovnik_metal.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "podgolovnik_metal",
+                    "material": {
+                        "side": 2,
+                        "color": "#aaa",
+                        "roughness": 0,
+                        "metalness": 1,
+                        "envMap": "textureCube",
+                        "envMapIntensity": 1.4,
+                        "aoMap": "aomap"
+                    },
+                    "castShadow": true,
+                    "receiveShadow": true
+                }
+            },
+            "podgolovnik_metal_black": {
+                "url": "model/fly/podgolovnik_metal_black.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "podgolovnik_metal_black",
+                    "material": {
+                        "side": 2,
+                        "color": "#111",
+                        "roughness": 0.3,
+                        "metalness": 1,
+                        "envMap": "textureCube",
+                        "envMapIntensity": 0.5,
+                        "aoMap": "aomap"
+                    },
+                    "castShadow": true,
+                "receiveShadow": true
+                }
+            },
+            "podgolovnik_plastic": {
+                "url": "model/fly/podgolovnik_plastic.json",
+                "model": "modelIn",
+                "meshType": "MeshStandardMaterial",
+                "mesh": {
+                    "name": "podgolovnik_plastic",
+                    "material": {
+                        "roughness": 0.8,
+                        "metalness": 0.5,
+                        "side": 2,
+                        "color": "#222",
+                        "aoMap": "aomap"
+                    },
+                    "castShadow": true,
+                "receiveShadow": true
+                }
+            }
+        }
+    }
+}
